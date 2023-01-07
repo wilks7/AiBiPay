@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C746E4D296A13AD008B9B83 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E4C296A13AD008B9B83 /* Bill.swift */; };
+		4C746E52296A14EC008B9B83 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E51296A14EC008B9B83 /* PaymentView.swift */; };
+		4C746E54296A1877008B9B83 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E53296A1877008B9B83 /* Strings.swift */; };
+		4C746E57296A1957008B9B83 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E56296A1957008B9B83 /* WalletView.swift */; };
+		4C746E59296A19DE008B9B83 /* PaymentAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E58296A19DE008B9B83 /* PaymentAccount.swift */; };
+		4C746E5B296A20F8008B9B83 /* AddPaymentAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E5A296A20F8008B9B83 /* AddPaymentAccountView.swift */; };
+		4C746E5D296A2239008B9B83 /* BillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E5C296A2239008B9B83 /* BillView.swift */; };
+		4C746E5F296A2571008B9B83 /* ReceiptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E5E296A2571008B9B83 /* ReceiptsView.swift */; };
+		4C746E61296A25A1008B9B83 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E60296A25A1008B9B83 /* Receipt.swift */; };
+		4C746E63296A2759008B9B83 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E62296A2759008B9B83 /* SessionViewModel.swift */; };
+		4C746E66296A2AF3008B9B83 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E65296A2AF3008B9B83 /* ItemCell.swift */; };
+		4C746E68296A3090008B9B83 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C746E67296A3090008B9B83 /* Double.swift */; };
+		4CD4407D295CCB5300DC879C /* AiBiPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4407C295CCB5300DC879C /* AiBiPayApp.swift */; };
+		4CD4407F295CCB5300DC879C /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4407E295CCB5300DC879C /* SessionView.swift */; };
+		4CD44081295CCB5400DC879C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD44080295CCB5400DC879C /* Assets.xcassets */; };
+		4CD44085295CCB5400DC879C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD44084295CCB5400DC879C /* Preview Assets.xcassets */; };
+		4CD4408E295CE23800DC879C /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4408D295CE23800DC879C /* SpeechRecognizer.swift */; };
+		4CD44090295CE49200DC879C /* QrGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4408F295CE49200DC879C /* QrGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C746E4C296A13AD008B9B83 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		4C746E51296A14EC008B9B83 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		4C746E53296A1877008B9B83 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		4C746E56296A1957008B9B83 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		4C746E58296A19DE008B9B83 /* PaymentAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAccount.swift; sourceTree = "<group>"; };
+		4C746E5A296A20F8008B9B83 /* AddPaymentAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentAccountView.swift; sourceTree = "<group>"; };
+		4C746E5C296A2239008B9B83 /* BillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillView.swift; sourceTree = "<group>"; };
+		4C746E5E296A2571008B9B83 /* ReceiptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsView.swift; sourceTree = "<group>"; };
+		4C746E60296A25A1008B9B83 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		4C746E62296A2759008B9B83 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		4C746E65296A2AF3008B9B83 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		4C746E67296A3090008B9B83 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		4CD44079295CCB5300DC879C /* AiBiPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiBiPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD4407C295CCB5300DC879C /* AiBiPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiBiPayApp.swift; sourceTree = "<group>"; };
+		4CD4407E295CCB5300DC879C /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		4CD44080295CCB5400DC879C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CD44082295CCB5400DC879C /* AiBiPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AiBiPay.entitlements; sourceTree = "<group>"; };
+		4CD44084295CCB5400DC879C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CD4408D295CE23800DC879C /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		4CD4408F295CE49200DC879C /* QrGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CD44076295CCB5300DC879C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C746E4A296A137C008B9B83 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4408D295CE23800DC879C /* SpeechRecognizer.swift */,
+				4CD4408F295CE49200DC879C /* QrGenerator.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4C746E4B296A1387008B9B83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4407E295CCB5300DC879C /* SessionView.swift */,
+				4C746E65296A2AF3008B9B83 /* ItemCell.swift */,
+				4C746E51296A14EC008B9B83 /* PaymentView.swift */,
+				4C746E5C296A2239008B9B83 /* BillView.swift */,
+				4C746E5E296A2571008B9B83 /* ReceiptsView.swift */,
+				4C746E56296A1957008B9B83 /* WalletView.swift */,
+				4C746E5A296A20F8008B9B83 /* AddPaymentAccountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C746E4E296A1494008B9B83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C746E4C296A13AD008B9B83 /* Bill.swift */,
+				4C746E60296A25A1008B9B83 /* Receipt.swift */,
+				4C746E58296A19DE008B9B83 /* PaymentAccount.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C746E55296A1939008B9B83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4C746E53296A1877008B9B83 /* Strings.swift */,
+				4C746E67296A3090008B9B83 /* Double.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4C746E64296A2808008B9B83 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C746E62296A2759008B9B83 /* SessionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4CD44070295CCB5300DC879C = {
+			isa = PBXGroup;
+			children = (
+				4CD4407B295CCB5300DC879C /* AiBiPay */,
+				4CD4407A295CCB5300DC879C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CD4407A295CCB5300DC879C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CD44079295CCB5300DC879C /* AiBiPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CD4407B295CCB5300DC879C /* AiBiPay */ = {
+			isa = PBXGroup;
+			children = (
+				4CD4407C295CCB5300DC879C /* AiBiPayApp.swift */,
+				4C746E4E296A1494008B9B83 /* Model */,
+				4C746E4B296A1387008B9B83 /* View */,
+				4C746E64296A2808008B9B83 /* ViewModel */,
+				4C746E4A296A137C008B9B83 /* Service */,
+				4C746E55296A1939008B9B83 /* Utils */,
+				4CD44080295CCB5400DC879C /* Assets.xcassets */,
+				4CD44082295CCB5400DC879C /* AiBiPay.entitlements */,
+				4CD44083295CCB5400DC879C /* Preview Content */,
+			);
+			path = AiBiPay;
+			sourceTree = "<group>";
+		};
+		4CD44083295CCB5400DC879C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CD44084295CCB5400DC879C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CD44078295CCB5300DC879C /* AiBiPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD44088295CCB5400DC879C /* Build configuration list for PBXNativeTarget "AiBiPay" */;
+			buildPhases = (
+				4CD44075295CCB5300DC879C /* Sources */,
+				4CD44076295CCB5300DC879C /* Frameworks */,
+				4CD44077295CCB5300DC879C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiBiPay;
+			productName = AiBiPay;
+			productReference = 4CD44079295CCB5300DC879C /* AiBiPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CD44071295CCB5300DC879C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4CD44078295CCB5300DC879C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4CD44074295CCB5300DC879C /* Build configuration list for PBXProject "AiBiPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CD44070295CCB5300DC879C;
+			productRefGroup = 4CD4407A295CCB5300DC879C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CD44078295CCB5300DC879C /* AiBiPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CD44077295CCB5300DC879C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD44085295CCB5400DC879C /* Preview Assets.xcassets in Resources */,
+				4CD44081295CCB5400DC879C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CD44075295CCB5300DC879C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD4407F295CCB5300DC879C /* SessionView.swift in Sources */,
+				4C746E52296A14EC008B9B83 /* PaymentView.swift in Sources */,
+				4C746E68296A3090008B9B83 /* Double.swift in Sources */,
+				4C746E4D296A13AD008B9B83 /* Bill.swift in Sources */,
+				4C746E61296A25A1008B9B83 /* Receipt.swift in Sources */,
+				4CD4408E295CE23800DC879C /* SpeechRecognizer.swift in Sources */,
+				4CD44090295CE49200DC879C /* QrGenerator.swift in Sources */,
+				4CD4407D295CCB5300DC879C /* AiBiPayApp.swift in Sources */,
+				4C746E5D296A2239008B9B83 /* BillView.swift in Sources */,
+				4C746E5F296A2571008B9B83 /* ReceiptsView.swift in Sources */,
+				4C746E54296A1877008B9B83 /* Strings.swift in Sources */,
+				4C746E59296A19DE008B9B83 /* PaymentAccount.swift in Sources */,
+				4C746E63296A2759008B9B83 /* SessionViewModel.swift in Sources */,
+				4C746E57296A1957008B9B83 /* WalletView.swift in Sources */,
+				4C746E5B296A20F8008B9B83 /* AddPaymentAccountView.swift in Sources */,
+				4C746E66296A2AF3008B9B83 /* ItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CD44086295CCB5400DC879C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CD44087295CCB5400DC879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4CD44089295CCB5400DC879C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AiBiPay/AiBiPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiBiPay/Preview Content\"";
+				DEVELOPMENT_TEAM = X83T84WPSN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AiBi needs your Microphone for Speech Recognition";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "AiBi needs Speech Recognition";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.rifigy.AiBiPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CD4408A295CCB5400DC879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AiBiPay/AiBiPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiBiPay/Preview Content\"";
+				DEVELOPMENT_TEAM = X83T84WPSN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AiBi needs your Microphone for Speech Recognition";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "AiBi needs Speech Recognition";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.rifigy.AiBiPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CD44074295CCB5300DC879C /* Build configuration list for PBXProject "AiBiPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD44086295CCB5400DC879C /* Debug */,
+				4CD44087295CCB5400DC879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD44088295CCB5400DC879C /* Build configuration list for PBXNativeTarget "AiBiPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD44089295CCB5400DC879C /* Debug */,
+				4CD4408A295CCB5400DC879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CD44071295CCB5300DC879C /* Project object */;
+}
